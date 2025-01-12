@@ -302,5 +302,139 @@ margin-top: 32px;
 }
     
 
+
+/* ------------------------part 4----------------------- */
+.donate-today{
+    height:446px ;
+    border: 2px solid black;
+}
+.donate-today-title{ 
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.donate-today-description{ 
+    color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.donate-today-btn-section{
+    width:1071px ;
+    height:128px ;
+    margin: 0 auto;
+    border: 2px solid pink;
+}
+.donate-today-btn{
+    display: flex;
+    justify-content: space-around;
+}
+.white{
+    box-sizing: border-box;
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+background: rgb(255, 255, 255);
+padding: 40px 40px 40px 40px;
+}
+.white-btn{
+color: rgba(14, 14, 14, 0.8);
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+
+
+/* --------------------------part 5----------------------- */
+.newsletter{
+    height:395px ;
+    /* border: 2px solid blue; */
+    margin-top: 80px;
+    border-radius: 24px;
+
+background: rgb(198, 228, 214);
+}
     
+.subscriber{
+    width: 750px;
+    height:235px ;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+.subscriber-title{ 
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 16px;
+
+}
+.subscriber-description{
+     color: rgba(14, 14, 14, 0.7);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.subscriber .submit-item{
+    margin-top: 24px;
+}
+.subscriber .submit-item .text-field{ 
+    border-radius: 50px 0px 0px 50px;
+    background: rgb(255, 255, 255);
+    width:600px ;
+    height:60px ;
+    border: none;
+}
+.subscriber .submit-item .text-field::placeholder{ 
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+} 
+.subscriber .submit-item .submit-button{
+    width:150px ; 
+    height:60px;
+    border-radius: 0px 50px 50px 0px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: capitalize;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+
+background: rgb(0, 106, 80);
+}
+.subscriber-pag{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: center;
+}
 
