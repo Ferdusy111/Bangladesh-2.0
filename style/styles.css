@@ -5,7 +5,7 @@ body{
     max-width: 1140px;
     margin: 0 auto;
 } 
-}
+
 /* Shared style------------------------------ */
 /* ----------------------Part 1----------------------------- */
 *{
@@ -63,5 +63,161 @@ header{
 
 
 /* ---------------------------part 2--------------------------- */
+.vision-of-future{
+    height:765px ;
+    /* border: 2px solid red; */
+    margin-top: 80px;
+}
+.vision-of-future .vision-up{
+    height: 120px;
+    /* border: 2px solid black; */
+}
+.vision-up-title{ 
+    color: rgb(14, 14, 14);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.vision-up-description{ 
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+.vision-of-future .vision-middle{
+    height: 325px;
+    /* border: 2px solid black; */
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.vision-middle .card-1{
+    width:364px ;
+    height:300px ;
+    padding: 40px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    background: rgba(84, 144, 245, 0.2);
+}
+.vision-middle .card-2{
+    width:364px ;
+    height:300px ;
+    padding: 40px;
+    border-radius: 16px;
+    box-sizing: border-box;
+    background: rgb(198, 228, 214);
+}
+.vision-middle .card-3{
+    width:364px ;
+    height:300px ;
+    padding: 40px;
+    border-radius: 16px;
+    box-sizing: border-box; 
+     background: rgb(247, 235, 207);
+}
+.card-name{
+    color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 25px;
+}
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+margin-top: 12px;
+}
+.card-btn-1{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgb(84, 144, 245);
+padding: 11px 20px 11px 20px;
+border: none;
+margin-top: 10px;
+}
+.card-btn-2{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgb(9, 161, 92);
+padding: 11px 20px 11px 20px;
+border: none;
+margin-top: 10px;
+}
+.card-btn-3{
+    color: rgb(255, 255, 255);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+border-radius: 8px;
+background: rgb(255, 194, 57);
+padding: 11px 20px 11px 20px;
+border: none;
+margin-top: 10px;
+}
+.vision-down{
+    height:200px ;
+    /* border: 2px solid black; */
+    margin-top: 32px;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+}
+.vision-down-description{ 
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 12px;
+    margin-top: 10px;
+}
+.vision-down-name{
+     color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 4px;
+}
+.vision-down-title{ 
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+    
+
     
 
